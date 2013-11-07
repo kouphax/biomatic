@@ -40,7 +40,8 @@ object BioBuilder extends TimesOnInt {
                    "mullet rockin'", "festival goin'", "steak eatin'", "vegetarian", "vegan", "dog lover", "quiet", "loud", "INT-J",
                    "extrovert", "cyclist", "hiker", "trekkie", "paleo pal", "craft beer", "innovation czar", "social architect",
                    "quizmaster", "wizard", "he was dead all along", "robot building", "single", "married", "traveller", "growth hacker",
-                   "bit-shifter", "pixel pusher", "boardroom badass", "rockstar", "ninja", "innovationizer")
+                   "bit-shifter", "pixel pusher", "boardroom badass", "rockstar", "ninja", "innovationizer", "proud husband", "father of jimmy",
+                   "old")
 
   val wordCount = words.size
 
