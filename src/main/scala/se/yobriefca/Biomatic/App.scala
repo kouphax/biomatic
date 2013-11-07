@@ -30,7 +30,7 @@ object App extends FinatraServer {
 object BioBuilder extends TimesOnInt {
 
   val words = List("husband", "father", "mother", "lover", "uncle", "donkey", "carpenter", "lazy-bones", "babymaker", "footballer",
-                   "rugby mad", "fashion victim", "bearded", "curmudgeon", "grumpy", "cat eating", "always smiling", "manic depressive",
+                   "rugby mad", "fashion victim", "bearded", "curmudgeon", "grumpy", "cat eating", "always smiling", "maniac",
                    "on a boat", "hater of food", "lover of food", "lover", "singer", "space lazer enthusiast", "once spoke to Yoko",
                    "full o' beans", "parent", "sibling", "cousin", "shopper", "shipper", "forever chipper", "star gazer", "dreamboat",
                    "friend to Kim", "political hairdresser", "angry seamstress", "widow", "chocolate eater", "in the dictionary", "hairy",
