@@ -44,7 +44,7 @@ object BioBuilder extends TimesOnInt {
                    "old", "early riser", "late night streaker", "yak shaver", "ballroom dancer", "twitter-mad", "soccer mom",
                    "leviathan", "foolish", "ZANZIBAR!", "yolo", "swag", "Irish Dancer", "poet", "tv zombie", "santas little helper",
                    "take the path less travelled", "accountant", "miner", "bit-coin", "SEO", "blogger", "fantastic", "excellent",
-                   "honest", "Favourite Movie: Beaches", "Football")
+                   "honest", "Favourite Movie: Beaches", "Football", "404: Not Profound")
 
   val wordCount = words.size
 
