@@ -15,8 +15,11 @@ object App extends FinatraServer {
     get("/") { request =>
       val bio = BioBuilder.build
       respondTo(request) {
-        case _:Json => render.json(Map("bio" -> bio)).toFuture
-        case _:All => render.plain(bio).toFuture
+        case _:Json => render.json(Map(
+          "bio"   -> bio,
+          "about" -> "http://github.com/kouphax/biomatic"
+        )).toFuture
+        case _:All => render.plain(bio + "\n\n  - http://github.com/kouphax/biomatic").toFuture
       }
     }
 
